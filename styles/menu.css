@@ -1,0 +1,59 @@
+/*menu*/
+
+.menu {
+  max-width: 700px;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 18px;
+  line-height: 1.5;
+  font-family: Arial, sans-serif;
+}
+.background-menu {
+  box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.3);
+  background-color: #fff;
+}
+.tab {
+  box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: row;
+  padding: 7px 16px;
+}
+
+.tabcontent {
+  display: none;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 48px 50px;
+}
+
+.tablinks {
+  align-items: center;
+  width: 100%;
+  height: 27px;
+  text-align: center;
+  color: #000;
+  cursor: pointer;
+  border-radius: 0%;
+  border: none;
+  background-color: #fff;
+  font-size: large;
+}
+
+.strong-menu {
+  font-size: 18px;
+  color: #000 !important;
+}
+
+.p-menu {
+  padding-top: 40px;
+  padding-bottom: 0px;
+  color: #757575;
+}
+.tab button.active {
+  background-color: #616161 !important;
+  color: #fff;
+}
+.coffeehouse2 {
+  width: 100%;
+  max-width: 700px;
+  margin-top: 32px;
+}

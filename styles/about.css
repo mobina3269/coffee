@@ -1,0 +1,56 @@
+/*about home*/
+h5 {
+  padding-top: 64px;
+  padding-bottom: 64px;
+  margin-left: 15rem;
+}
+
+.top2 {
+  display: inline-block;
+  font-size: 18px;
+  line-height: 1.5;
+  word-spacing: 4px;
+  color: #fff;
+  background-color: #111;
+  letter-spacing: 4px;
+  margin: 10px 0;
+  text-align: center !important;
+  width: fit-content;
+  padding: 5px 8px;
+}
+.border {
+  background-color: #f1f1f1 !important;
+  color: #000;
+  border-left: 6px solid #ccc !important;
+  padding: 16px 16px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+.content {
+  max-width: 700px;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: "Inconsolata", sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  font-family: Arial, sans-serif;
+}
+.coffeeImg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img {
+  width: 100%;
+  max-width: 700px;
+}
+.paragraph {
+  font-size: 18px;
+  line-height: 1.5;
+  word-spacing: 4px;
+  letter-spacing: 1px;
+}
+.paragraph2 {
+  margin-top: 18px;
+}

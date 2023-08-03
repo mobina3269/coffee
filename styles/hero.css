@@ -1,0 +1,81 @@
+html {
+  filter: grayscale(50%);
+}
+body {
+  background-color: #fdf5e6 !important;
+}
+@media (max-width: 773px) {
+  .hero-section{
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
+@media (max-width: 773px) {
+  h5 {
+    text-align: center;
+    display: table-cell;
+  }
+}
+@media (max-width: 773px) {
+  .caption-middle {
+    font-weight: 100;
+    font-size: small;
+  }
+}
+.hero-section {
+  position: relative;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 75vh;
+  z-index: -1;
+  background-image: url(../assets/images/coffeehouse.jpg);
+  background-size: cover !important;
+  background-position: center center;
+}
+
+@media (m-width: "773px") {
+  .caption-middle {
+    font-weight: lighter;
+  }
+}
+@media (max-width: 448px) {
+  .caption-left {
+    display: none;
+  }
+}
+.hero-caption {
+  position: absolute;
+  color: white;
+  text-align: center;
+}
+
+.caption-left {
+  background-color: #111;
+  bottom: 10px;
+  left: 16px;
+  padding-left: 8px;
+  padding-right: 8px;
+  word-spacing: 3px;
+  letter-spacing: 1px;
+  max-height: fit-content;
+}
+
+.caption-middle {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Inconsolata", sans-serif;
+  font-size: 90px;
+  word-spacing: 16px;
+}
+
+.caption-right {
+  max-height: fit-content;
+
+  bottom: 10px;
+  right: 16px;
+  line-height: 1.5;
+  word-spacing: 4px;
+  letter-spacing: 1px;
+}

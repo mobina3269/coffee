@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>home</title>
+    <link rel="stylesheet" type="text/css" href="./styles/header.css" />
+    <link rel="stylesheet" type="text/css" href="styles/hero.css" />
+    <link rel="stylesheet" type="text/css" href="styles/about.css" />
+    <link rel="stylesheet" href="styles/menu.css" />
+    <link rel="stylesheet" href="styles/findus.css" />
+    <link rel="stylesheet" href="styles/question.css" />
+    <link rel="stylesheet" href="styles/footer.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <div class="section1">
+          <img class="logo" src="./assets/images/logo.png" />
+          <div class="separator"></div>
+          <div id="drawer" class="sidenav">
+            <div class="style-btn">
+              <div>
+                <button class="btn">log in</button>
+              </div>
+
+              <div>
+                <button class="btn2">sign Up</button>
+              </div>
+            </div>
+            <div>
+              <a
+                href="javascript:void(0)"
+                class="closebtn link"
+                onclick="closeNav()"
+                >&times;</a
+              >
+              <a class="link" href="#cofe"> cofe</a>
+              <a class="link" href="#menu">menu</a>
+              <a class="link" href="#find us">find us</a>
+              <a class="link" href="#">about us</a>
+            </div>
+          </div>
+
+          <div class="sidenav2">
+            <a class="link" href="#cofe"> cofe</a>
+            <a class="link" href="#menu">menu</a>
+            <a class="link" href="#">find us</a>
+            <a class="link" href="#">about us</a>
+          </div>
+        </div>
+        <span class="menu-button" onclick="openNav()">&#9776;</span>
+        <div class="auth-buttons hide-btn">
+          <div>
+            <button class="btn"><a href="#">log in</a></button>
+          </div>
+          <div class="separator"></div>
+          <div>
+            <button class="btn2"><a href="#">sign Up</a></button>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!--hero part-->
+    <div class="hero-section">
+      <div>
+        <div class="hero-caption caption-left">
+          <span>Open from 6am to 5pm</span>
+        </div>
+        <div class="hero-caption caption-right">
+          <span>15 Adr street, 5015</span>
+        </div>
+        <div class="hero-caption caption-middle">
+          <span
+            >"the"<br />
+            "cofe"
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <!--about coffee-->
+    <div class="about-section" id="cofe">
+      <div class="about">
+        <div class="content">
+          <h5 class="top">
+            <span class="top2">ABOUT THE CAFE</span>
+          </h5>
+          <p class="paragraf">
+            The Cafe was founded in blabla by Mr. Smith in lorem ipsum dolor sit
+            amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+            nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat.
+          </p>
+          <br />
+          <p class="paragraf">
+            In addition to our full espresso and brew bar menu, we serve fresh
+            made-to-order breakfast and lunch sandwiches, as well as a selection
+            of sides and salads and other good stuff.
+          </p>
+          <br />
+        </div>
+        <div class="content border">
+          <p class="paragraph">
+            <i
+              >"Use products from nature for what it's worth - but never too
+              early, nor too late." Fresh is the new sweet.</i
+            >
+          </p>
+          <br />
+          <p class="paragraph">Chef, Coffeeist and Owner: Liam Brown</p>
+        </div>
+        <div class="coffeeImg">
+          <img class="img" src="./assets/images/coffeeshop.jpg" />
+        </div>
+        <div class="content">
+          <p class="paragraph2">
+            <strong>Opening hours:</strong> everyday from 6am to 5pm.
+          </p>
+          <p class="paragraph2">
+            <strong>Address:</strong> 15 Adr street, 5015, NY
+          </p>
+        </div>
+      </div>
+      <!--menu-->
+      <section class="menu" id="menu">
+        <h5 class="top"><span class="top2">THe MENU</span></h5>
+        <div class="background-menu">
+          <div class="tab">
+            <button
+              class="tablinks"
+              onclick="openMenu(event, 'eat')"
+              id="myLink"
+            >
+              Eat
+            </button>
+            <button class="tablinks" onclick="openMenu(event, 'drink')">
+              Drink
+            </button>
+          </div>
+          <div class="tabcontent" id="eat">
+            <p class="p-menu">
+              <strong class="strong-menu">Bread Basket</strong><br />Assortment
+              of fresh baked fruit breads and muffins 5.50
+            </p>
+            <br />
+            <p class="p-menu">
+              <strong class="strong-menu"
+                >Honey Almond Granola with Fruits</strong
+              ><br />Natural cereal of honey toasted oats, raisins, almonds and
+              dates 7.00
+            </p>
+            <br />
+            <p class="p-menu">
+              <strong class="strong-menu">Belgian Waffle</strong><br />Vanilla
+              flavored batter with malted flour 7.50
+            </p>
+            <br />
+            <p class="p-menu">
+              <strong class="strong-menu"> Scrambled eggs</strong
+              ><br />Scrambled eggs, roasted red pepper and garlic, with green
+              onions 7.50
+            </p>
+            <br />
+            <p class="p-menu">
+              <strong class="strong-menu">Blueberry Pancakes</strong><br />With
+              syrup, butter and lots of berries 8.50
+            </p>
+            <br />
+          </div>
+          <div class="tabcontent" id="drink">
+            <p class="p-menu">
+              <strong class="strong-menu">Coffee</strong><br />Regular coffee
+              2.50
+            </p>
+            <br />
+            <p class="p-menu">
+              <strong class="strong-menu">Chocolato</strong><br />Chocolate
+              espresso with milk 4.50
+            </p>
+            <br />
+            <p class="p-menu">
+              <strong class="strong-menu">Corretto</strong><br />Whiskey and
+              coffee 5.00
+            </p>
+            <br />
+            <p class="p-menu">
+              <strong class="strong-menu">Iced tea</strong><br />Hot tea, except
+              not hot 3.00
+            </p>
+            <br />
+            <p class="p-menu">
+              <strong class="strong-menu">Soda</strong><br />Coke, Sprite,
+              Fanta, etc. 2.50
+            </p>
+            <br />
+          </div>
+        </div>
+        <div class="coffeeImg">
+          <img class="coffeehouse2" src="assets/images/coffeehouse2.jpg" />
+        </div>
+      </section>
+      <!--find us-->
+      <section id="find-us">
+        <div class="content">
+          <h5 class="top"><span class="top2">WHERE TO FIND US</span></h5>
+        </div>
+        <div class="content">
+          <p class="paragraf">Find us at some address at some place.</p>
+        </div>
+        <div class="coffeeImg">
+          <img class="map" src="assets/images/map.jpg" />
+        </div>
+        <p class="paragraf content">
+          FYI! We offer full-service catering for any event, large or small. We
+          understand your needs and we will cater the food to satisfy the
+          biggerst criteria of them all, both look and taste.
+        </p>
+        <br />
+      </section>
+      <!--question box-->
+      <div class="box-part">
+        <p class="paragraf content">
+          <strong>Reserve</strong> table, ask for today's special or just send
+          us a message:
+        </p>
+        <div class="box">
+          <input
+            type="text"
+            class="input-padding16 input border2"
+            placeholder="Name"
+          />
+        </div>
+        <div class="box">
+          <input
+            type="number"
+            class="input-padding16 input border2"
+            placeholder="How Many Pleaple"
+          />
+        </div>
+        <div class="box">
+          <input
+            type="datetime"
+            class="input-padding16 input border2"
+            placeholder="11/6/2020 8:00"
+          />
+        </div>
+        <div class="box">
+          <input
+            type="text"
+            class="input-padding16 input border2"
+            placeholder="Message \ Special Requirements "
+          />
+        </div>
+        <div class="btn-box">
+          <button class="send">
+            <a class="last-btn" href="#">send message</a>
+          </button>
+          <!--footer-->
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="footer">
+        <p class="paragraph">Create by w3school</p>
+      </div>
+    </footer>
+    <script src="header.js"></script>
+    <script src="menu.js"></script>
+  </body>
+</html>

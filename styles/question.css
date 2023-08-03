@@ -1,0 +1,52 @@
+/*question box part*/
+.box-part {
+  max-width: 700px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.paragraf content {
+  width: 100%;
+}
+input {
+  width: 100%;
+}
+.input {
+  padding: 16px;
+
+  display: block;
+}
+.input-padding16 {
+  padding-top: 21px;
+  padding-bottom: 21px;
+}
+.border2 {
+  border: 1px solid #ccc !important;
+}
+.box {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+::placeholder {
+  font-family: Arial;
+  font-size: 18px;
+}
+.send {
+  border: none;
+}
+.last-btn {
+  filter: none;
+  line-height: normal;
+  text-align: center;
+  font-size: 18px;
+  background-color: #000;
+  color: #fff;
+  padding: 10px 16px;
+  display: inline-block;
+  text-decoration: none;
+  border: none;
+  transition: 0s;
+}
+.send :hover {
+  color: #000;
+  background-color: #ccc;
+}
